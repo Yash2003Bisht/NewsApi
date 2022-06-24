@@ -7,7 +7,6 @@ app = webApp()
 def index():
     """main function which return news data in json formate"""
     return "<h3>Click <a href='api/news-data'>here</a> to get api data</h3>"
-    
 
 @app.route("/api/news-data")
 def news_data():

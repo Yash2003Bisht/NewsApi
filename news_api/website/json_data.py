@@ -4,6 +4,7 @@ from .convert_language import translateText
 
 API_KEY = "7134f2e62d7a49babd40b617d29783a2"  # News api key form newsapi.org
 
+
 def fetchNewsData(json_data):
     """Fetching news in json format"""
     json_data_lst = []
